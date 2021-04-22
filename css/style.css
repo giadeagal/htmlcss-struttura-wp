@@ -1,5 +1,4 @@
 /* Formattazione generale */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -7,14 +6,12 @@
 }
 
 /* Formattazione body */
-
 body {
     margin: 50px 200px;
 }
 
 /* header */
-
-body header {
+.page-header {
     height: 70px;   
     width: 100%;
     background-color: #e579e6;
@@ -22,9 +19,21 @@ body header {
 
 /* sezione "upper-main" */
 /* TOGLI ALTEZZA QUANDO CI METTI IL CONTENUTO */
-
 .upper-main {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background-color: #e1d67a;
+}
+
+/* Sezione "lower-main" */
+.lower-main {
+    height: 450px;
+    width: 100%;
+    background-color: #0086fe;
+}
+
+.lower-main::after {
+    content: 'none';
+    display: table;
+    clear: both;
 }
