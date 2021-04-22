@@ -1,3 +1,30 @@
+/* Formattazione generale */
+
 * {
-    background-color: teal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Formattazione body */
+
+body {
+    margin: 50px 200px;
+}
+
+/* header */
+
+body header {
+    height: 70px;   
+    width: 100%;
+    background-color: #e579e6;
+}
+
+/* sezione "upper-main" */
+/* TOGLI ALTEZZA QUANDO CI METTI IL CONTENUTO */
+
+.upper-main {
+    height: 500px;
+    width: 100%;
+    background-color: #e1d67a;
 }
