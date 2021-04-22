@@ -12,7 +12,7 @@ body {
 
 /* header */
 .page-header {
-    height: 70px;   
+    height: 100px;   
     width: 100%;
     background-color: #e579e6;
 }
@@ -36,4 +36,10 @@ body {
     content: 'none';
     display: table;
     clear: both;
+}
+
+.section-header {
+    height: 15%;
+    width: 100%;
+    background-color: #abcfe7;
 }
