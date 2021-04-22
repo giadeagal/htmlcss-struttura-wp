@@ -32,14 +32,30 @@ body {
     background-color: #0086fe;
 }
 
-.lower-main::after {
-    content: 'none';
-    display: table;
-    clear: both;
-}
-
 .section-header {
     height: 15%;
     width: 100%;
     background-color: #abcfe7;
+    margin-bottom: 3%;
+}
+
+.lower-main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+    background-color: #abcfe7;
+    height: 70%;
+    margin: 0 5px;
+}
+
+aside {
+    width: 10%;
+}
+
+.subsection {
+    width: 30%;
 }
