@@ -19,7 +19,6 @@ body {
 }
 
 /* sezione "upper-main" */
-/* TOGLI ALTEZZA QUANDO CI METTI IL CONTENUTO */
 .upper-main {
     height: 580px;
     width: 100%;
@@ -53,14 +52,14 @@ body {
     height: 86%;
 }
 
-
 aside {
-    width: 15%
+    width: 16%;
+    margin: 1% 0;
 }
 
 .subsection {
     width: 66%;
-    margin: 0px 2%;
+    margin: 1% 1%;
 }
 
 /* Piè di pagina */
